@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator Dom</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Kalkulator Sederhana</h1>
+        <div class="input">
+            <input id="i1" type="number" placeholder="Input Angka">
+            <input id="i2" type="number" placeholder="Input Angka">
+        </div>
+        <div id="operator">
+            <button onclick="hitung('+')" value="+">
+                +
+            </button>
+            <button onclick="hitung('-')" value="-">
+                -
+            </button>
+            <button onclick="hitung('*')" value="*">
+                X
+            </button>
+            <button onclick="hitung('/')" value="/">
+                /
+            </button>
+            
+        </div>
+        <button id="reset" value="reset" onclick="btnReset()">
+            reset
+        </button>
+        <div id="hasil">hasil</div>
+    </div>
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>
